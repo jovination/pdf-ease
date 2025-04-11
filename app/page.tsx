@@ -4,6 +4,7 @@ import Header from "@/components/Header";
 import HeroSection from "@/components/HeroSection";
 import FeaturesSection from "@/components/FeaturesSection";
 import Featured from "@/components/Featured";
+import TestimonialsSection from "@/components/TestimonialsSection";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
         <HeroSection />
         <FeaturesSection />
         <Featured />
+        <TestimonialsSection />
       </main>
     </div>
   );

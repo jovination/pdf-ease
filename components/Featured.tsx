@@ -24,8 +24,8 @@ function Featured() {
         <div className="flex flex-col md:flex-row gap-8 mb-16">
           {/* Left column - Text content */}
           <div className="w-full md:w-1/2">
-            <div className="h-full flex flex-col justify-center gap-4cl">
-              <h2 className="font-extrabold text-black text-3xl md:text-4xl lg:text-5xl mb-6 whitespace-pre-line">
+            <div className="h-full flex flex-col justify-center gap-8">
+              <h2 className="font-extrabold text-black text-2xl sm:text-3xl md:text-4xl lg:text-5xl  leading-tight">
                 {features[0].title}
               </h2>
               <p className="font-normal text-[#000000de] text-base md:text-lg">{features[0].description}</p>
@@ -50,9 +50,9 @@ function Featured() {
         <div className="flex flex-col md:flex-row-reverse gap-8">
           {/* Left column - Text content (on right in desktop) */}
           <div className="w-full md:w-1/2">
-            <div className="h-full flex flex-col justify-center">
-              <h2 className="font-extrabold text-black text-3xl md:text-4xl lg:text-5xl mb-6 whitespace-pre-line">
-                {features[1].title}
+            <div className="h-full flex flex-col justify-center gap-8">
+            <h2 className="font-extrabold text-black text-2xl sm:text-3xl md:text-4xl lg:text-5xl  leading-tight">
+            {features[1].title}
               </h2>
               <p className="font-normal text-[#000000de] text-base md:text-lg">{features[1].description}</p>
             </div>

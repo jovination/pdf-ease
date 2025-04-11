@@ -44,11 +44,11 @@ function FeaturesSection() {
     <section className="w-full py-16 md:py-24">
       <div className="container max-w-7xl mx-auto px-8">
         <div className="flex flex-col items-center mb-12">
-          <h2 className="font-extrabold text-black text-3xl md:text-4xl lg:text-5xl text-center leading-tight mb-2">
-            Here&apos;s are the features
+        <h2 className="font-extrabold text-black text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-center leading-tight ">
+        Here&apos;s are the features
           </h2>
-          <h2 className="font-extrabold text-black text-3xl md:text-4xl lg:text-5xl text-center leading-tight">
-            PDF ease.
+          <h2 className="font-extrabold text-black text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-center leading-tight">
+          PDF ease.
           </h2>
         </div>
 
