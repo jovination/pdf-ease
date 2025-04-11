@@ -18,7 +18,7 @@ function HeroSection() {
   return (
     <section className="w-full py-12 md:py-20 overflow-hidden">
       <div className=" max-w-7xl mx-auto px-6 ">
-        <div className="flex flex-col md:flex-row justify-between items-center">
+        <div className="flex flex-col md:flex-row gap-8 lg:gap-40 items-center">
           <div className="w-full md:w-1/2 space-y-4">
             <div className="flex items-center gap-1.5 bg-[#f3f0ea] rounded-md w-fit py-1.5 px-2.5">
               <StarIcon className="w-[14px] h-[14px] fill-current text-[#712fff]" />
