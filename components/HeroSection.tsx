@@ -22,7 +22,7 @@ function  HeroSection(){
         <div className="flex flex-col md:flex-row gap-8 items-center">
           <div className="w-full md:w-1/2 space-y-6">
             <div className="flex items-center gap-2 bg-[#f3f0ea] rounded-lg w-fit py-2 px-3">
-              <StarIcon className="w-[18px] h-[18px] fill-current text-black" />
+              <StarIcon className="w-[18px] h-[18px] fill-current text-[#712fff]" />
               <span className="font-normal text-black text-sm">5.0 / Overall client rating</span>
             </div>
 
