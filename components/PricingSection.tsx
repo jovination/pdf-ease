@@ -6,8 +6,7 @@ import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 
- function PricingSection() {
-  // Plan data for mapping
+function PricingSection() {
   const plans = [
     {
       name: "Free",
@@ -40,56 +39,57 @@ import { Card, CardContent } from "@/components/ui/card"
   ]
 
   return (
-    <section className="w-full py-16 md:py-24">
-      <div className="container max-w-7xl mx-auto px-8">
-        <div className="text-center mb-10">
-        <h2 className="font-extrabold text-black text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-center leading-tight mb-6">
-        Choose your plan</h2>
-          <p className="font-normal text-[#000000de] text-base md:text-lg max-w-[700px] mx-auto">
+    <section className="w-full py-12 md:py-16">
+      <div className="container max-w-7xl mx-auto px-6">
+        <div className="text-center mb-8">
+          <h2 className="font-extrabold text-black text-xl sm:text-2xl md:text-3xl lg:text-4xl leading-tight mb-4">
+            Choose your plan
+          </h2>
+          <p className="font-normal text-[#000000de] text-sm md:text-base max-w-[640px] mx-auto">
             Pricing plans for businesses at every stage of growth.
           </p>
         </div>
 
-        <Badge className="bg-[#f3f0ea] text-black hover:bg-[#f3f0ea] py-3 px-6 rounded-lg mx-auto mb-12 block w-fit">
-          <span className="font-medium text-sm">Rated 4.97/5 from over 600 reviews.</span>
+        <Badge className="bg-[#f3f0ea] text-black hover:bg-[#f3f0ea] py-2 px-4 rounded-lg mx-auto mb-10 block w-fit">
+          <span className="font-medium text-xs">Rated 4.97/5 from over 600 reviews.</span>
         </Badge>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-10">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-5 md:gap-8">
           {plans.map((plan, index) => (
             <Card
               key={index}
-              className={`w-full h-full rounded-[20px] overflow-hidden ${
+              className={`w-full h-full rounded-2xl overflow-hidden ${
                 plan.highlighted ? "bg-[#712fff]" : "bg-white"
               }`}
             >
-              <CardContent className="p-6 md:p-8 flex flex-col h-full">
-                <div className="mb-8">
+              <CardContent className="p-4 md:p-6 flex flex-col h-full">
+                <div className="mb-6">
                   <h3
-                    className={`font-extrabold text-xl md:text-2xl mb-6 ${
+                    className={`font-extrabold text-lg md:text-xl mb-4 ${
                       plan.highlighted ? "text-white" : "text-black"
                     }`}
                   >
                     {plan.name}
                   </h3>
-                  <p className={`font-normal text-base mb-6 ${plan.highlighted ? "text-white" : "text-black"}`}>
+                  <p className={`font-normal text-sm mb-4 ${plan.highlighted ? "text-white" : "text-black"}`}>
                     {plan.description}
                   </p>
                   <div className="flex items-center">
                     <span
-                      className={`font-extrabold text-3xl md:text-4xl lg:text-5xl ${
+                      className={`font-extrabold text-2xl md:text-3xl lg:text-4xl ${
                         plan.highlighted ? "text-white" : "text-black"
                       }`}
                     >
                       {plan.price}
                     </span>
-                    <span className={`ml-2 font-medium text-sm ${plan.highlighted ? "text-white" : "text-black"}`}>
+                    <span className={`ml-2 font-medium text-xs ${plan.highlighted ? "text-white" : "text-black"}`}>
                       {plan.period}
                     </span>
                   </div>
                 </div>
 
                 <Button
-                  className={`w-full h-[50px] rounded-lg ${
+                  className={`w-full h-[42px] rounded-lg text-sm ${
                     plan.highlighted
                       ? "bg-white text-black hover:bg-gray-100"
                       : "bg-transparent text-black border border-[#c1bfb4] hover:bg-gray-50"
@@ -98,11 +98,11 @@ import { Card, CardContent } from "@/components/ui/card"
                   Get Started
                 </Button>
 
-                <div className="mt-6 bg-[#fbf9f5] rounded-lg p-5 flex-grow">
+                <div className="mt-5 bg-[#fbf9f5] rounded-lg p-4 flex-grow">
                   {plan.features.map((feature, idx) => (
-                    <div key={idx} className="flex items-start mb-4 last:mb-0">
-                      <CheckIcon className="w-5 h-5 text-black mr-2 mt-1 shrink-0" />
-                      <span className="font-normal text-black text-base">{feature}</span>
+                    <div key={idx} className="flex items-start mb-3 last:mb-0">
+                      <CheckIcon className="w-4 h-4 text-black mr-2 mt-1 shrink-0" />
+                      <span className="font-normal text-sm text-black">{feature}</span>
                     </div>
                   ))}
                 </div>
