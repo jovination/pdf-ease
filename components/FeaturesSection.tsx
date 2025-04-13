@@ -50,8 +50,8 @@ function FeaturesSection() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-6 max-w-5xl mx-auto">
           {features.map((feature) => (
             <Card key={feature.id} className="bg-[#f3f0ea] rounded-[16px] border-none h-full">
-              <CardContent className="p-5 md:p-6">
-                <div className="w-[50px] h-[50px] bg-[#712fff] rounded-[10px] overflow-hidden mb-4 relative">
+              <CardContent className="px-6 py-2">
+                <div className="w-[50px] h-[50px] bg-[#712fff] rounded-[12px] overflow-hidden mb-4 relative">
                   <Image
                     width={28}
                     height={28}

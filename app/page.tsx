@@ -11,7 +11,7 @@ import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
-<div className="bg-[#FBF9F4] min-h-screen font-[family-name:var(--font-geist-sans)] ">
+<div className="bg-[#FBF9F4] min-h-screen font-[family-name:var(--font-inter)] ">
 <Header />
       <main>
         <HeroSection />

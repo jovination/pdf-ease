@@ -18,7 +18,7 @@ function Featured() {
 
   return (
     <section className="w-full py-12 md:py-20">
-      <div className="container max-w-6xl mx-auto px-6">
+      <div className="container max-w-7xl mx-auto px-8">
         {/* First feature row */}
         <div className="flex flex-col md:flex-row gap-6 md:gap-8 mb-12 md:mb-16">
           {/* Text content */}
