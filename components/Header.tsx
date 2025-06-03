@@ -14,7 +14,7 @@ function Header() {
 
   return (
     <header className="sticky top-0 w-full z-50 backdrop-blur-md bg-white/70 supports-[backdrop-filter]:bg-white/60">
-      <div className="w-full max-w-7xl mx-auto px-6 py-2">
+      <div className="w-full max-w-7xl mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <Link href= "/" >
           <Image src="./logo.svg" alt="Logo" width={150} height={150} />
@@ -27,10 +27,10 @@ function Header() {
               </div>
             ))}
           </div>
-          <div className="hidden md:flex items-center">
+          <div className="flex items-center">
             <Link 
                 href="/demo" 
-                className="font-medium text-sm text-[#192833] hover:text-[#712fff] cursor-pointer"
+                className="hidden md:flex font-medium text-sm text-[#192833] hover:text-[#712fff] cursor-pointer"
             >
                 Request a demo
             </Link>
@@ -43,7 +43,7 @@ function Header() {
             </Link>
             <Link 
                 href="/signup" 
-                className="bg-[#712fff] text-white rounded-md h-9 px-4 font-medium text-sm hover:bg-[#712fff]/90 cursor-pointer inline-flex items-center"
+                className="bg-[#712fff] text-white rounded-xl h-9 px-4 font-medium text-sm hover:bg-[#712fff]/90 cursor-pointer inline-flex items-center"
             >
                 Try for free
             </Link>

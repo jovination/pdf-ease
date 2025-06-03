@@ -40,7 +40,7 @@ function FeaturesSection() {
 
   return (
     <section className="w-full py-12 md:py-20">
-      <div className="container max-w-7xl mx-auto px-6">
+      <div className="container max-w-7xl mx-auto px-8">
         <div className="flex flex-col items-center mb-8">
           <h2 className="font-extrabold text-black text-xl sm:text-2xl md:text-3xl lg:text-4xl text-center leading-tight">
             Here are the features of <br /> PDF ease
@@ -49,8 +49,8 @@ function FeaturesSection() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-6 max-w-5xl mx-auto">
           {features.map((feature) => (
-            <Card key={feature.id} className="bg-[#f3f0ea] rounded-[16px] border-none h-full">
-              <CardContent className="px-6 py-2">
+            <Card key={feature.id} className="bg-[#f3f0ea] rounded-[24px] border-none h-full">
+              <CardContent className="p-6">
                 <div className="w-[50px] h-[50px] bg-[#712fff] rounded-[12px] overflow-hidden mb-4 relative">
                   <Image
                     width={28}

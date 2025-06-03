@@ -10,17 +10,14 @@ function Footer() {
     { title: "About page", href: "/about" },
     { title: "Blog Details page", href: "/blog/details" },
     { title: "Contact", href: "/contact" },
-    { title: "404 Error page", href: "/404" },
   ];
 
-  // Contact information
   const contactInfo = [
     { info: "contact@pdfease.com", href: "mailto:contact@pdfease.com" },
     { info: "+1 888 777 222", href: "tel:+18887772222" },
     { info: "123 Main Street, New York, NY", href: "#" },
   ];
 
-  // Footer links
   const footerLinks = [
     { title: "Privacy Policy", href: "/privacy-policy" },
     { title: "Terms & Conditions", href: "/terms-conditions" },
@@ -28,7 +25,7 @@ function Footer() {
 
   return (
     <footer className="w-full py-10 border-t border-[#e5e5e5]">
-      <div className="container mx-auto px-6 max-w-7xl">
+      <div className="container mx-auto px-8 max-w-7xl">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {/* Company info section */}
           <div className="space-y-3">

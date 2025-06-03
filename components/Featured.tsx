@@ -33,7 +33,7 @@ function Featured() {
             </div>
           </div>
           {/* Image */}
-          <Card className="w-full md:w-1/2 rounded-[16px] overflow-hidden border shadow-none">
+          <Card className="w-full md:w-1/2 rounded-[24px] overflow-hidden border shadow-none">
             <CardContent className="p-5 md:p-8">
               <div className="relative max-w-[450px] h-auto mx-auto">
                 <Image
@@ -62,7 +62,7 @@ function Featured() {
             </div>
           </div>
           {/* Image */}
-          <Card className="w-full md:w-1/2 rounded-[16px] overflow-hidden border shadow-none">
+          <Card className="w-full md:w-1/2 rounded-[24px] overflow-hidden border shadow-none">
             <CardContent className="p-5 md:p-8">
               <div className="relative max-w-[450px] h-auto mx-auto">
                 <Image

@@ -52,7 +52,7 @@ export default function TestimonialsSection() {
 
   return (
     <section className="w-full py-10 md:py-12 lg:py-20">
-      <div className="container mx-auto px-6 max-w-7xl">
+      <div className="container mx-auto px-8 max-w-7xl">
         <div className="flex flex-col items-center mb-10 md:mb-14">
         <h2 className="font-extrabold text-black text-xl sm:text-2xl md:text-3xl lg:text-4xl text-center leading-tight">
         Hear what teams around <br className="hidden md:block" />
@@ -66,8 +66,8 @@ export default function TestimonialsSection() {
               {testimonials.map((testimonial) => (
                 <CarouselItem key={testimonial.id} className="pl-2 md:pl-4 basis-full sm:basis-1/2 lg:basis-1/3">
                   <div className="h-full p-1">
-                    <Card className="h-full rounded-2xl overflow-hidden">
-                      <CardContent className="py-2 px-4 h-full flex flex-col justify-between gap-3">
+                    <Card className="h-full rounded-3xl overflow-hidden">
+                      <CardContent className="p-6 h-full flex flex-col justify-between gap-3">
                         <div className="space-y-3">
                           <div className="flex">
                             {Array.from({ length: testimonial.rating }).map((_, i) => (
