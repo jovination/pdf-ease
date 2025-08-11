@@ -46,7 +46,7 @@ function HeroSection() {
                   height={300}
                   className="w-full h-auto max-w-[400px]"
                   alt="PDF Ease Illustration"
-                  src="./illustration.svg"
+                  src="./illustration1.svg"
                 />
 
                 <div className="absolute bottom-8 left-0 bg-white rounded-[8px] py-1.5 px-3 shadow-lg">
