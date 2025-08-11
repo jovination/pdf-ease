@@ -17,7 +17,7 @@ function HeroSection() {
 
   return (
     <section className="w-full py-12 md:py-20 overflow-hidden">
-      <div className=" max-w-7xl mx-auto px-6 ">
+      <div className=" max-w-7xl mx-auto px-8 ">
         <div className="flex flex-col md:flex-row gap-8 lg:gap-40 items-center">
           <div className="w-full md:w-1/2 space-y-4">
             <div className="flex items-center gap-1.5 bg-[#f3f0ea] rounded-md w-fit py-1.5 px-2.5">
@@ -25,7 +25,7 @@ function HeroSection() {
               <span className="font-normal text-black text-xs">5.0 / Overall client rating</span>
             </div>
 
-            <h1 className="font-extrabold text-black text-3xl md:text-4xl lg:text-[52px] leading-snug tracking-tight">
+            <h1 className="font-extrabold text-black text-3xl md:text-4xl lg:text-[52px]">
               Make your PDFs easier and faster.
             </h1>
 
@@ -33,7 +33,7 @@ function HeroSection() {
               Fill out, e-sign, and manage your PDFs with 20,000+ templates and personalized forms
             </p>
 
-            <Button className="h-10 px-4 bg-black text-white text-sm font-medium rounded-md hover:bg-black/90">
+            <Button className="h-10 px-4 bg-black text-white text-sm font-medium rounded-xl hover:bg-black/90">
               Get Started for free
             </Button>
           </div>
@@ -42,8 +42,8 @@ function HeroSection() {
             <div className="relative w-full aspect-square max-w-[470px] mx-auto">
               <div className="absolute inset-0 flex items-center justify-center">
                 <Image
-                  width={400}
-                  height={400}
+                  width={300}
+                  height={300}
                   className="w-full h-auto max-w-[400px]"
                   alt="PDF Ease Illustration"
                   src="./illustration.svg"

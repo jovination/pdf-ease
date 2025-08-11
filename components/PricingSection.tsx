@@ -40,7 +40,7 @@ function PricingSection() {
 
   return (
     <section className="w-full py-12 md:py-16">
-      <div className="container max-w-7xl mx-auto px-6">
+      <div className="container max-w-7xl mx-auto px-8">
         <div className="text-center mb-8">
           <h2 className="font-extrabold text-black text-xl sm:text-2xl md:text-3xl lg:text-4xl leading-tight mb-4">
             Choose your plan
@@ -58,11 +58,11 @@ function PricingSection() {
           {plans.map((plan, index) => (
             <Card
               key={index}
-              className={`w-full h-full rounded-2xl overflow-hidden ${
+              className={`w-full h-full rounded-[24px] overflow-hidden ${
                 plan.highlighted ? "bg-[#712fff]" : "bg-white"
               }`}
             >
-              <CardContent className="p-4 md:p-6 flex flex-col h-full">
+              <CardContent className=" py-8 md:p-6 flex flex-col h-full">
                 <div className="mb-6">
                   <h3
                     className={`font-extrabold text-lg md:text-xl mb-4 ${
@@ -89,7 +89,7 @@ function PricingSection() {
                 </div>
 
                 <Button
-                  className={`w-full h-[42px] rounded-lg text-sm ${
+                  className={`w-full h-[42px] rounded-xl text-sm ${
                     plan.highlighted
                       ? "bg-white text-black hover:bg-gray-100"
                       : "bg-transparent text-black border border-[#c1bfb4] hover:bg-gray-50"
@@ -98,9 +98,9 @@ function PricingSection() {
                   Get Started
                 </Button>
 
-                <div className="mt-5 bg-[#fbf9f5] rounded-lg p-4 flex-grow">
+                <div className="mt-5 bg-[#fbf9f5] rounded-2xl p-4 flex-grow">
                   {plan.features.map((feature, idx) => (
-                    <div key={idx} className="flex items-start mb-3 last:mb-0">
+                    <div key={idx} className="flex items-start mb-4 last:mb-0">
                       <CheckIcon className="w-4 h-4 text-black mr-2 mt-1 shrink-0" />
                       <span className="font-normal text-sm text-black">{feature}</span>
                     </div>

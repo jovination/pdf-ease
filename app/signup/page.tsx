@@ -10,7 +10,7 @@ import Link from "next/link";
 export function SignUp() {
   return (
     <div className="min-h-screen bg-[#fbf9f4] flex items-center justify-center p-4">
-      <Card className="w-full max-w-[500px] bg-white rounded-2xl">
+      <Card className="w-full max-w-[500px] bg-white rounded-[24px]">
       <CardContent className="p-8 ">
       <div className="mb-8 text-center">
             <Link href="/" >
@@ -96,7 +96,7 @@ export function SignUp() {
               </span>
             </div>
 
-            <Button className="w-full bg-[#712fff] hover:bg-[#712fff]/90">
+            <Button className="w-full bg-[#712fff] rounded-xl hover:bg-[#712fff]/90">
               Create account
             </Button>
 
@@ -105,7 +105,7 @@ export function SignUp() {
               <button
                 type="button"
                 onClick={() => window.location.href = "/signin"}
-                className="text-[#712fff] hover:underline"
+                className="text-[#712fff]  hover:underline"
               >
                 Sign in
               </button>

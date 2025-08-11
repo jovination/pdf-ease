@@ -37,11 +37,11 @@ function NewsletterSection() {
 
               <div className="flex flex-col sm:flex-row gap-3 max-w-[320px] mx-auto">
                 <Input
-                  className="h-[42px] bg-white rounded-md text-[#0000004c] text-sm py-3 px-3 flex-grow"
+                  className="h-[42px] bg-white rounded-xl text-[#0000004c] text-sm py-3 px-3 flex-grow"
                   placeholder="Enter your email"
                   defaultValue=""
                 />
-                <Button className="h-[42px] bg-black rounded-md font-normal text-white text-sm px-5">
+                <Button className="h-[42px] bg-black rounded-xl font-normal text-white text-sm px-5">
                   Subscribe
                 </Button>
               </div>
