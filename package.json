@@ -54,7 +54,6 @@
     "pdfjs-dist": "^5.0.375",
     "react": "^19",
     "react-colorful": "latest",
-    "react-day-picker": "8.10.1",
     "react-dom": "^19",
     "react-hook-form": "^7.54.1",
     "react-resizable-panels": "^2.1.7",
