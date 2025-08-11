@@ -7,7 +7,7 @@ import { Input } from "../../components/ui/input";
 import Image from "next/image";
 import Link from "next/link";
 
-export function SignUp() {
+function SignUp() {
   return (
     <div className="min-h-screen bg-[#fbf9f4] flex items-center justify-center p-4">
       <Card className="w-full max-w-[500px] bg-white rounded-[24px]">
